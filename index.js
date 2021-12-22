@@ -106,8 +106,8 @@ try{
 }
    
 })
-
-app.listen(9999,()=>{
+const port=process.env.PORT||9999
+app.listen(port,()=>{
     console.log('sever up at 9999')
     
 })
